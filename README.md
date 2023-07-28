@@ -26,3 +26,6 @@ Using Text Utilities is as simple as pasting or typing text into the designated 
 <h5>Bootstrap (👢):</h5> Ensures that our application is responsive and mobile-friendly.
 <h5>HTML (🔤):</h5> The markup language that forms the backbone of our web application.
 <h5>CSS (🎨):</h5> Empowers us to create a stylish, visually appealing interface.
+
+<h2>Extra Feature: Dark Mode 🌙</h2>
+You can effortlessly switch between Light Mode (☀️) and Dark Mode (🌙), adjusting the interface to your lighting conditions and preferences. This feature is especially handy for reducing screen glare and preserving your eyesight during late-night work sessions. Enjoy the cool, soothing dark theme with just a click, and let the tranquility guide your thoughts and words!
