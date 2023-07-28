@@ -39,15 +39,15 @@ function TextForm(props) {
   return (
     <>
     <div className="container my-4" style={{color: props.mode==='dark'?'white':'black'}}>
-        <h1>{props.heading}</h1>
+        <h1 className="mb-4">{props.heading}</h1>
         <div className="mb-3">
                 <textarea className="form-control" value={text} onChange={handleOnChange} style={{backgroundColor: props.mode==='dark'?'#36454F':'white', color: props.mode==='dark'?'white':'black'}}id="myBox" rows="5"></textarea>
         </div>
-        <button className="btn btn-primary mx-2 my-2" onClick={handleUpClick}>To Upper Case</button>
-        <button className="btn btn-primary mx-2 my-2" onClick={handleLoClick}>To Lower Case</button>
-        <button className="btn btn-primary mx-2 my-2" onClick={handleClearClick}>Clear Text</button>
-        <button className="btn btn-primary mx-2 my-2" onClick={handleCopy}>Copy Text</button>
-        <button type="submit" onClick={handleSpeak} className="btn btn-primary mx-2 my-2">Speak</button>
+        <button disabled={text.length===0} className="btn btn-primary mx-2 my-2" onClick={handleUpClick}>To Upper Case</button>
+        <button disabled={text.length===0} className="btn btn-primary mx-2 my-2" onClick={handleLoClick}>To Lower Case</button>
+        <button disabled={text.length===0} className="btn btn-primary mx-2 my-2" onClick={handleClearClick}>Clear Text</button>
+        <button disabled={text.length===0} className="btn btn-primary mx-2 my-2" onClick={handleCopy}>Copy Text</button>
+        <button disabled={text.length===0} type="submit" onClick={handleSpeak} className="btn btn-primary mx-2 my-2">Speak</button>
 
 
     </div>
@@ -56,7 +56,7 @@ function TextForm(props) {
         <p>{text.split(/\s+/).filter((element)=>{return element.length!==0}).length} words and {text.length} characters</p>
         <h5>{0.008 *  text.split(/\s+/).filter((element)=>{return element.length!==0}).length} Minutes read</h5>
         <h1>Preview</h1>
-        <p>{text.length>0?text:'Your text will be shown here'}</p>
+        <p>{text.length>0?text:'Nothing to Preview'}</p>
     </div>
     </>
   )
