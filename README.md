@@ -14,17 +14,17 @@ Using Text Utilities is as simple as pasting or typing text into the designated 
 🟢 CSS
 
 <h2>Features 💡</h2>
-<h5>To UpperCase(🔠):</h5> Convert your text to uppercase, ideal for creating headings or emphasizing important parts.
-<h5>To LowerCase(🔡):</h5> Transform your text into lowercase to maintain a consistent style across your document.
-<h5>Clear Text (🗑️):</h5> Need a fresh start? Clear your workspace with a single click.
-<h5>Copy Text (📋):</h5> Easily copy your modified text to the clipboard and paste it wherever you need.
-<h5>Text to Speech (🔊):</h5> Don't just read it, hear it! Use our text-to-speech feature to listen to your text spoken aloud.
+<h4>To UpperCase(🔠):</h4> Convert your text to uppercase, ideal for creating headings or emphasizing important parts.
+<h4>To LowerCase(🔡):</h4> Transform your text into lowercase to maintain a consistent style across your document.
+<h4>Clear Text (🗑️):</h4> Need a fresh start? Clear your workspace with a single click.
+<h4>Copy Text (📋):</h4> Easily copy your modified text to the clipboard and paste it wherever you need.
+<h4>Text to Speech (🔊):</h4> Don't just read it, hear it! Use our text-to-speech feature to listen to your text spoken aloud.
 
 <h2>Technologies Used 🛠️</h2>
-<h5>ReactJS (⚛️):</h5> Utilized to create an interactive UI that instantly responds to users' input.
-<h5>JavaScript (JS):</h5> The scripting language used to create the functionality behind our application.
-<h5>Bootstrap (👢):</h5> Ensures that our application is responsive and mobile-friendly.
-<h5>HTML (🔤):</h5> The markup language that forms the backbone of our web application.
+<h4>ReactJS (⚛️):</h4> Utilized to create an interactive UI that instantly responds to users' input.
+<h4>JavaScript (JS):</h4> The scripting language used to create the functionality behind our application.
+<h4>Bootstrap (👢):</h4> Ensures that our application is responsive and mobile-friendly.
+<h4>HTML (🔤):</h4> The markup language that forms the backbone of our web application.
 <h5>CSS (🎨):</h5> Empowers us to create a stylish, visually appealing interface.
 
 <h2>Extra Feature: Dark Mode 🌙</h2>
