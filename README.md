@@ -6,7 +6,7 @@ Welcome to Text Utilities, a beautifully designed and efficient web application 
 <h2>💻 How to Use 🎈</h2>
 Using Text Utilities is as simple as pasting or typing text into the designated area and choosing the transformation tool you want to use. The results are instantly displayed, providing an immediate solution for your text manipulation needs.
 
-<h2>Tech Stack:</h2>
+<h2>Tech Stack</h2>
 🔵 ReactJS
 🟡 JavaScript
 🟠 Bootstrap
